@@ -1,0 +1,21 @@
+.quote-container {
+    margin: 0;
+    background-color: #29b363;
+    height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.main-quote {
+    margin: 0;
+    color: white;
+}
+
+.quote {
+    color: white;
+}

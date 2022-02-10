@@ -1,0 +1,62 @@
+.joke-container {
+  margin: 0;
+  margin: auto;
+  width: 56%; 
+  margin-bottom: 50px;
+}
+
+.joke-content {
+  line-height: 25px;
+
+}
+
+button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #3363bb;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 40%;
+  margin: 5%;
+}
+button:hover,
+button:focus {
+  background-color: #15008a;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.btn-notFunny {
+  background-color: #29b363;  
+}
+
+.buttons-container {
+  margin: 0;
+  margin: auto;
+  width: 77%;
+  border-top: 1px solid rgb(211, 209, 209);
+  padding-top: 30px;
+}

@@ -1,0 +1,15 @@
+.footer-container {
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(211, 209, 209);
+}
+
+.footer-subscription {
+    text-align: center;
+    color: rgb(161, 159, 159);
+    margin-top: 0;
+    padding: 0 50px 0 150px;
+}

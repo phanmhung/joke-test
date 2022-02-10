@@ -1,0 +1,53 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-logo {
+  flex: 2;
+  font-size: 24px;
+  margin-left: 300px;
+  font-weight: bold;
+  color: lime;
+  cursor: pointer;
+}
+
+.avatar-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 250px;
+}
+
+.avatar-name {
+  margin-right: 0px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: right;
+  color: rgb(161, 159, 159);
+}
+
+span {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  color:black;
+}
+.avatar-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 14px 0;
+}
